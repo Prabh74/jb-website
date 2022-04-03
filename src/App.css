@@ -1,38 +1,326 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	font-family: "DM Sans", sans-serif;
+}
+/* ----------------------------------------------LANDING PAGE---------------------------------------------------- */
+
+.landingMainGradient {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.landingMainGradientImg,
+.landingMain {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.logo {
+	text-align: center;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 21.9798px;
+	line-height: 25px;
+	color: #7021f9;
 }
 
-.App-link {
-  color: #61dafb;
+.landingGrid {
+	display: grid;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	place-items: center;
+	grid-template-columns: 10vw 10vw 10vw;
+	row-gap: 1vw;
+	column-gap: 1vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.landingGridContent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 40vw;
+	opacity: 0;
+	animation: getsVisible 1s forwards;
+	animation-delay: 3s;
 }
+
+.landingGridContent h3 {
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+	text-align: center;
+	color: #333333;
+}
+
+.landingGridContent p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+	color: #666666;
+}
+
+.landingGridItems {
+	border-radius: 12px;
+	height: 10vw;
+	width: 10vw;
+}
+
+.opacity {
+	opacity: 0.1;
+}
+
+.left {
+	animation: moveLeft 2s forwards;
+	animation-delay: 1s;
+}
+
+.right {
+	animation: moveRight 2s forwards;
+	animation-delay: 1s;
+}
+
+.center {
+	animation: getsHidden 1s forwards;
+	animation-delay: 1s;
+}
+
+.landingTitle {
+	font-family: "Lexend", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 3.75rem;
+	text-align: center;
+
+	color: #333333;
+}
+
+.landingDesc {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	text-align: center;
+
+	color: #666666;
+}
+
+@keyframes moveRight {
+	from {
+		margin-right: 0;
+	}
+	to {
+		margin-right: -50vw;
+	}
+}
+
+@keyframes getsHidden {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes getsVisible {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes moveLeft {
+	from {
+		margin-left: 0;
+	}
+	to {
+		margin-left: -50vw;
+	}
+}
+
+/* ----------------------------------------------------------ABOUT US---------------------------------------------------- */
+
+.aboutMain {
+	background-image: linear-gradient(
+			rgba(35, 35, 35, 0.7),
+			rgba(35, 35, 35, 0.7)
+		),
+		url("../public/Images/aboutBG.png");
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	background-size: 100%;
+	color: #fff;
+	display: grid;
+	place-items: center;
+}
+
+.aboutContent {
+	width: 80vw;
+	border: 3px solid #7021f9;
+	padding: 5vw;
+}
+
+.aboutContent h1 {
+	font-family: "Lexend", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 114%;
+	letter-spacing: 0.07em;
+	text-align: center;
+}
+
+.aboutContent p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 138.5%;
+	text-align: justify;
+	letter-spacing: 0.012em;
+}
+
+.aboutHR1,
+.aboutHR2 {
+	width: 30vw;
+	border-top: 2px solid #fff;
+	margin: 2.5vh;
+}
+
+.aboutHR1 {
+	margin-left: -20vw;
+}
+
+.aboutHR2 {
+	margin-right: -20vw;
+}
+
+/* ----------------------------------------------------------FACILITIES---------------------------------------------------- */
+.facilitiesContainer {
+	padding: 20vh 10vw;
+	background-color: #ffffff;
+	background: repeating-linear-gradient(
+		45deg,
+		rgba(172, 162, 162, 0.1),
+		rgba(172, 162, 162, 0.1) 20px,
+		rgba(255, 255, 255, 0.2) 10.5px,
+		rgba(255, 255, 255, 0.2) 52.5px
+	);
+}
+
+.facilitiesCard {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10vh;
+}
+
+.cardContent {
+	width: 38vw;
+}
+
+.cardImg {
+	width: 38vw;
+}
+
+.divider {
+	height: 2vh;
+	margin: 2vh 0;
+	background-color: #7021f9;
+}
+
+.cardDesc {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 140%;
+	color: #232323;
+}
+
+.cardTitle {
+	font-family: "Lexend", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 46px;
+	line-height: 138.5%;
+	text-align: justify;
+	letter-spacing: 0.012em;
+	color: #232323;
+}
+
+/* ----------------------------------------------------------OTHER FACILITIES---------------------------------------------------- */
+
+.otherFacilitiesContainer {
+	background-color: rgba(196, 196, 196, 0.3);
+	padding: 20vh 10vw;
+}
+
+.otherFacilitiesContainer h1 {
+    text-align: center !important;
+	font-family: "Lexend", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.75rem;
+	line-height: 138.5%;
+	text-align: justify;
+	letter-spacing: 0.03em;
+	color: #232323;
+}
+
+.black{
+    border-top: 2px solid #232323; 
+}
+
+.otherCardsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.otherCard{
+    border: 2px solid #7021f9;
+    width: 22.5vw;
+    padding: 1vw;
+}
+
+.otherCard h2{
+    font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 127.5%;
+color: #232323;
+}
+
+.otherCard p{
+    font-style: normal;
+font-weight: 400;
+font-size: 1.25rem;
+line-height: 140%;
+color: #232323;
+}
+
