@@ -281,7 +281,7 @@ body {
 }
 
 .otherFacilitiesContainer h1 {
-    text-align: center !important;
+	text-align: center !important;
 	font-family: "Lexend", sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -292,35 +292,34 @@ body {
 	color: #232323;
 }
 
-.black{
-    border-top: 2px solid #232323; 
+.black {
+	border-top: 2px solid #232323;
 }
 
-.otherCardsContainer{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10vh;
+.otherCardsContainer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10vh;
 }
 
-.otherCard{
-    border: 2px solid #7021f9;
-    width: 22.5vw;
-    padding: 1vw;
+.otherCard {
+	border: 2px solid #7021f9;
+	width: 22.5vw;
+	padding: 1vw;
 }
 
-.otherCard h2{
-    font-style: normal;
-font-weight: 700;
-font-size: 1.5rem;
-line-height: 127.5%;
-color: #232323;
+.otherCard h2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 127.5%;
+	color: #232323;
 }
 
-.otherCard p{
-    font-style: normal;
-font-weight: 400;
-font-size: 1.25rem;
-line-height: 140%;
-color: #232323;
+.otherCard p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 140%;
+	color: #232323;
 }
-

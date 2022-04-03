@@ -49,7 +49,7 @@ const data = [
 	},
 	
     {
-		name: "Guest Room",
+		name: "Gymnasium",
 		description:"Fitness freak? We got you covered. With the gym open for all students, you get access to all the equipment that is also regularly maintained. Hence, continue on your body-building journey or maybe start on one.",
         flexDirection: "row",
 		vector: "weights 1.svg",
