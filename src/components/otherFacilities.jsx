@@ -12,7 +12,7 @@ export default function OtherFacilities() {
 
 			<section className="otherCardsContainer">
 				<div className="otherCard">
-					<h2>Barber/Tailor/Stationary</h2>
+					<h2>Barber/ Tailor/ Stationary</h2>
 					<p>
 						Jawahar Bhawan also provides you with the basic amenities including
 						a barber, tailor, and a stationary shop. With ideal timings for

@@ -19,7 +19,7 @@ export default function About() {
 					any facilities. Hence, this is the only bhawan to have its club with a
 					billiards and pool table, with sports facilities such as table tennis,
 					volleyball and tennis courts and other facilities like 24-hour cyber
-					room, Wi-Fi connectivity in each room, tailor, canteen and barbershop
+					room, Wi-Fi connectivity in each room, tailor, canteen and barber shop
 					Jawahar bhawan provides an ideal environment for the overall
 					development of a true IITian.
 				</p>

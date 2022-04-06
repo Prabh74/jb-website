@@ -172,7 +172,7 @@ body {
 		),
 		url("../public/Images/aboutBG.png");
 	background-repeat: no-repeat;
-	height: 100vh;
+	padding: 10vh 0;
 	width: 100vw;
 	overflow-x: hidden;
 	background-size: 100%;
@@ -322,4 +322,259 @@ body {
 	font-size: 1.25rem;
 	line-height: 140%;
 	color: #232323;
+}
+
+/* ----------------------------------------------MEET THE TEAM---------------------------------------------------- */
+
+.teamSection {
+	padding: 20vh 10vw;
+	background-image: url("../public/Images/Group 47.png");
+	width: 100vw;
+	background-size: 100%;
+	background-repeat: no-repeat, no-repeat;
+}
+
+.teamCards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	row-gap: 5vh;
+	place-items: center;
+}
+
+.teamHeading {
+	text-align: center;
+	font-family: "Lexend", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 138.5%;
+	letter-spacing: 0.03em;
+	color: #232323;
+}
+
+.teamCard {
+	background-color: #232323;
+	background-image: url("../public/Images/teamCard/Diagonal.png");
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: space-evenly;
+	height: 50vh;
+}
+
+.cardName {
+	text-align: center;
+	font-family: "Lexend";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.125rem;
+	line-height: 114%;
+	letter-spacing: 0.125em;
+	color: #ffffff;
+	margin-top: 2vh;
+	padding: 2vh;
+}
+
+.cardDesignation {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 114%;
+	letter-spacing: 0.035em;
+	color: #ffffff;
+}
+
+.cardBlock1 {
+	width: 1.5vw;
+	height: 5vw;
+	background-color: #7021f9;
+	margin-left: 1vw;
+}
+
+.cardBlock2 {
+	width: 1.5vw;
+	height: 8vw;
+	background-color: #7021f9;
+	margin-top: 5vw;
+}
+
+.cardTop {
+	padding: 2vh;
+}
+
+.cardMiddle {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cardMiddle img {
+	width: 12vw;
+	height: 15vw;
+	border: 2px solid #7021f9;
+	object-fit: cover;
+}
+
+.teamCardDivider {
+	width: 90%;
+	border: none;
+	border-top: 2px solid white;
+	margin: 1vh 0;
+}
+
+/* ----------------------------------------------GALLERY---------------------------------------------------- */
+
+.galleryMain {
+	background: #c4c4c4;
+	padding: 10vh 0;
+}
+
+.galleryMain h1 {
+	text-align: center;
+	font-family: "Lexend";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.75rem;
+	line-height: 138.5%;
+	letter-spacing: 0.03em;
+	color: #232323;
+}
+
+.galleryImages {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	/* height: 20vh; */
+	width: 80vw;
+	margin-left: 10vw;
+}
+
+#scrollDiv {
+	display: flex;
+	overflow-x: scroll;
+	transition: 2s;
+	scroll-behavior: smooth;
+}
+
+#scrollDiv::-webkit-scrollbar {
+	display: none;
+}
+
+.galleryImage {
+	height: 35vh;
+	border: 2px solid #7021f9;
+	margin-right: 5vw;
+}
+
+.galleryImage:last-child {
+	margin-right: 0;
+}
+
+.scrollButtons {
+	position: absolute;
+	z-index: 1;
+	background-color: #c4c4c4;
+	border: none;
+	width: 7vw;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.leftBtn {
+	background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	left: 0;
+	height: 35vh;
+	cursor: pointer;
+}
+
+.rightBtn {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	right: 0;
+	height: 35vh;
+	cursor: pointer;
+}
+
+/* ----------------------------------------------FOOTER---------------------------------------------------- */
+.footerMain {
+	background-color: #232323;
+	display: flex;
+	padding: 10vh 10vw;
+	position: relative;
+	overflow: hidden;
+	justify-content: space-between;
+}
+
+.footerLine {
+	width: 2px;
+	height: 10vh;
+	background-color: #ffffff;
+}
+
+.leftSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.topLeftSection {
+	border: 2px solid #7021f9;
+	padding: 1vw;
+	margin-bottom: 5vh;
+}
+
+.rightSection {
+	border: 2px solid #7021f9;
+	padding: 1vw;
+	width: 35vw;
+}
+
+iframe {
+	border: none;
+	width: 33vw;
+	height: 80vh;
+}
+
+.footerHead {
+	font-family: "Lexend";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 3rem;
+	line-height: 114%;
+	letter-spacing: 0.02em;
+	color: #ffffff;
+}
+
+.topLeftSection p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 114%;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+}
+
+.bottomLeftSection p {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5rem;
+	line-height: 130.5%;
+	/* or 31px */
+	text-decoration: underline;
+	letter-spacing: 0.04em;
+	padding: 0 1vw;
+	color: #ffffff;
+}
+
+.footerTopBg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-50%, -50%);
+}
+
+.footerBottomBg{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	transform: translateY(50%);
 }
