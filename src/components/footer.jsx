@@ -15,9 +15,12 @@ export default function Footer() {
 					<br />
 					<div className="footerLine" />
 					<br />
-					<p>Jawahar Bhawan, Jawahar Bhawan Road, <br />
-					IIT Roorkee, Roorkee-247667 <br />
-					Uttrakhand, IN</p> <br />
+					<p>
+						Jawahar Bhawan, Jawahar Bhawan Road, <br />
+						IIT Roorkee, Roorkee-247667 <br />
+						Uttrakhand, IN
+					</p>{" "}
+					<br />
 				</div>
 				<div className="bottomLeftSection">
 					<p>Home</p>
@@ -27,12 +30,13 @@ export default function Footer() {
 			</section>
 
 			<section className="rightSection">
-					<h1 className="footerHead">Find Us here</h1>
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.395936062983!2d77.21277351489312!3d28.61789328242347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2b5d155be63%3A0x819d012e224ef827!2sJawahar%20Bhawan%2C%20Raisina%20Road%2C%20Windsor%20Place%2C%20New%20Delhi%2C%20Delhi%20110001!5e0!3m2!1sen!2sin!4v1649255362105!5m2!1sen!2sin"
-						loading="lazy"
-						referrerpolicy="no-referrer-when-downgrade"
-					></iframe>
+				<h1 className="footerHead">Find Us here</h1>
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1158.8119324506313!2d77.9000185827351!3d29.86429626323842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb368ef396751%3A0xeddda126ec67f931!2sJawahar%20Bhawan%20Rd%2C%20Indian%20Institute%20of%20Technology%20Roorkee%2C%20Roorkee%2C%20Uttarakhand%20247667!5e0!3m2!1sen!2sin!4v1649440856842!5m2!1sen!2sin"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
 			</section>
 		</footer>
 	);
