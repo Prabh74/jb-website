@@ -10,7 +10,7 @@ export default function OtherFacilities() {
 				<div className="aboutHR2 black" />
 			</center>
 
-			<section className="otherCardsContainer">
+			<div className="otherCardsContainer">
 				<div className="otherCard">
 					<h2>Barber/ Tailor/ Stationary</h2>
 					<p>
@@ -34,7 +34,7 @@ export default function OtherFacilities() {
 						shop, you can get your nutritious fill at a reasonable price.
 					</p>
 				</div>
-			</section>
+			</div>
 		</section>
 	);
 }

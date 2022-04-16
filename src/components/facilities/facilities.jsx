@@ -6,7 +6,7 @@ import "../../app.css"
 export default function Facilities(){
     return(
         <React.Fragment>
-            <section className="facilitiesContainer">
+            <section className="facilitiesContainer" id="Facilities">
             {data.map(e => {
                 return <Card sent = {e}/>
             })}

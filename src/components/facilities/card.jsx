@@ -3,7 +3,7 @@ import "../../app.css"
 
 export default function Card(props){
     return(
-        <section className="facilitiesCard" style={{flexDirection: props.sent.flexDirection}}>
+        <div className="facilitiesCard" style={{flexDirection: props.sent.flexDirection}}>
             <div className="cardContent">
                 <img className="cardVector" src={"/Images/card/" + props.sent.vector} />
                 <div className="divider" />
@@ -11,6 +11,6 @@ export default function Card(props){
                 <p className="cardDesc">{props.sent.description}</p>
             </div>
             <img className="cardImg" src={"/Images/card/" + props.sent.img} />
-        </section>
+        </div>
     )
 }

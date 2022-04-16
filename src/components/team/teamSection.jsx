@@ -5,7 +5,7 @@ import data from "./data.js"
 
 export default function TeamSection(){
     return(
-        <section className="teamSection">
+        <section className="teamSection" id="Team">
             <h1 className="teamHeading">Meet the Team</h1>
                 <center>
                     <div className="aboutHR1 black"/>

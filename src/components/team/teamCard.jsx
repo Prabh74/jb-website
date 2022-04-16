@@ -3,7 +3,15 @@ import "../../app.css";
 
 export default function TeamCard(props) {
 	return (
-		<section className="teamCard">
+		<div className="teamCard">
+			<div className="overlay">
+				<div>
+					<a href={"mailto:" + props.props.email}>{props.props.email}</a>
+					<br />
+					<br />
+					<p>{props.props.phone}</p>
+				</div>
+			</div>
 			<div className="cardTop">
 				<p className="cardDesignation">{props.props.designation}</p>
 				<hr className="teamCardDivider" />
@@ -14,6 +22,6 @@ export default function TeamCard(props) {
 				<div className="cardBlock2" />
 			</div>
 			<div className="cardName">{props.props.name}</div>
-		</section>
+		</div>
 	);
 }
