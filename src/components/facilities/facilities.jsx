@@ -6,7 +6,7 @@ import "../../app.css";
 export default function Facilities() {
 	return (
 		<React.Fragment>
-			<section className="facilitiesContainer" id="Facilities">
+			<section className="facilitiesContainer">
 				<section className="aboutMain" id="About">
 					<div className="aboutContent">
 						<h1>About Us</h1>
@@ -29,9 +29,11 @@ export default function Facilities() {
 						<img src="/Images/about.png" />
 					</div>
 				</section>
+				<section id="Facilities">
 				{data.map((e) => {
 					return <Card sent={e} />;
 				})}
+				</section>
 
 				<section className="otherFacilitiesContainer">
 					<h1>Other Facilities</h1>
