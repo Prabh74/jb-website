@@ -3,7 +3,7 @@ const dataWardens = [
 		name: "Ravindra Pandey",
 		designation: "Chief Warden",
 		img: "chief_warden.jpg",
-		phone: "7044088633",
+		phone: "",
 		email: "cw-jawaharbhawan@iitr.ac.in",
 	},
 	{
