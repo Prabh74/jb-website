@@ -17,9 +17,9 @@ export default function TeamCard(props) {
 				<hr className="teamCardDivider" />
 			</div>
 			<div className="cardMiddle">
-				<div className="cardBlock1" />
+				{/* <div className="cardBlock1" /> */}
 				<img src={"/Images/team/" + props.props.img} />
-				<div className="cardBlock2" />
+				{/* <div className="cardBlock2" /> */}
 			</div>
 			<div className="cardName">{props.props.name}</div>
 		</div>

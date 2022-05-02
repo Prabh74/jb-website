@@ -13,8 +13,6 @@ export default function Footer() {
 					<br />
 					<p>9045789183</p>
 					<br />
-					<div className="footerLine" />
-					<br />
 					<p>
 						Jawahar Bhawan, Jawahar Bhawan Road, <br />
 						IIT Roorkee, Roorkee-247667 <br />

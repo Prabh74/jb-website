@@ -21,9 +21,10 @@ export default function App() {
 			<React.Fragment>
 				<Navbar />
 				<Landing />
-				<About />
+				<div style={{height: "10vh", width: "10vw"}}/>
+				{/* <About /> */}
 				<Facilities />
-				<OtherFacilities />
+				{/* <OtherFacilities /> */}
 				<TeamSection />
 				<Gallery />
 				<Footer />

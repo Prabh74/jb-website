@@ -6,10 +6,6 @@ export default function About() {
 		<section className="aboutMain" id="About">
 			<div className="aboutContent">
 				<h1>About Us</h1>
-                <center>
-                    <div className="aboutHR1"/>
-                    <div className="aboutHR2"/>
-                </center>
 				<p>
 					Jawahar Bhawan is one of the oldest and most beautiful bhawans in the
 					institute. Whether it be due to the large and spacious rooms or the
@@ -23,6 +19,9 @@ export default function About() {
 					Jawahar bhawan provides an ideal environment for the overall
 					development of a true IITian.
 				</p>
+			</div>
+			<div className="aboutImg">
+				<img className="aboutImg" src="/Images/about.png" />
 			</div>
 		</section>
 	);

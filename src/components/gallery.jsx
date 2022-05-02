@@ -12,11 +12,7 @@ export default function Gallery(){
 
     return(
         <section className="galleryMain" id="Gallery">
-            <h1>Gallery</h1>
-            <center>
-                <div className="aboutHR1 black"/>
-                <div className="aboutHR2 black"/>
-            </center>
+            <h1>Our Gallery</h1>
 
             <div className="galleryImages">
                 <button className="scrollButtons leftBtn" onClick={scrollLeft}><img src="/Images/leftarrow.svg"/></button>
