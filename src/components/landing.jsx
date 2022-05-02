@@ -3,7 +3,7 @@ import "../app.css";
 
 export default function Landing (){
     return(
-        <section className="landingMainContainer">
+        <section className="landingMainContainer" id="Home">
                 <img className="logo" src="/Images/logo.png" />
             <div className="landingContent">
                 <h1 className="landingHead">Welcome to Jawahar Bhawan</h1>

@@ -252,7 +252,7 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 10vh;
+	padding-bottom: 30vh;
 }
 
 .aboutContent {
@@ -321,6 +321,10 @@ a {
 		rgba(255, 255, 255, 0.05) 10.5px,
 		rgba(255, 255, 255, 0.05) 52.5px
 	), #3F5857;
+}
+
+.cardVector{
+	width: 5vw;
 }
 
 .facilitiesCard {
@@ -471,7 +475,7 @@ a {
 	flex-direction: column;
 	align-items: left;
 	justify-content: space-evenly;
-	height: 55vh;
+	height: 60vh;
 	position: relative;
 }
 
