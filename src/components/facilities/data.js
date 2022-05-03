@@ -5,7 +5,7 @@ const data = [
 			"Jawahar Bhawan’s mess provides students with nutritious food daily. With its focus on quality and cleanliness, it is one of the best places to eat your food at. With the mess of accepting online payments, it is now quite convenient for the students to buy coupons for those special occasions where they feel like indulging themselves. Moreover, the mess also allows visitors so you can eat with your parents as well. 24*7 ",
 		flexDirection: "row",
 		vector: "diet 1.png",
-		img: "mess.jpg",
+		img: "mess.jpeg",
 	},
 
 	{
