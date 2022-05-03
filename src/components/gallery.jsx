@@ -28,6 +28,10 @@ export default function Gallery(){
                         <img className="galleryImage" src="/Images/gallery/9.JPG"/>
                         <img className="galleryImage" src="/Images/gallery/10.JPG"/>
                         <img className="galleryImage" src="/Images/gallery/11.JPG"/>
+                        <img className="galleryImage" src="/Images/gallery/12.jpg"/>
+                        <img className="galleryImage" src="/Images/gallery/13.jpg"/>
+                        <img className="galleryImage" src="/Images/gallery/14.jpg"/>
+                        <img className="galleryImage" src="/Images/gallery/15.jpg"/>
                     </div>
                 <button className="scrollButtons rightBtn" onClick={scrollRight}><img src="/Images/rightarrow.svg"/></button>
                 
